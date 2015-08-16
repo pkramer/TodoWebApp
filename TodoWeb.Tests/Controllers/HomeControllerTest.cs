@@ -35,7 +35,7 @@ namespace TodoWeb.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Your application description page. With a change.", result.ViewBag.Message);
+            Assert.AreEqual("Your application description page. With a new change.", result.ViewBag.Message);
         }
 
         [Test]

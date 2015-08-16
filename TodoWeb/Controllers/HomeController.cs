@@ -15,7 +15,7 @@ namespace TodoWeb.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page. With a change.";
+            ViewBag.Message = "Your application description page. With a new change.";
 
             return View();
         }
